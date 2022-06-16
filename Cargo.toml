@@ -1,5 +1,5 @@
 [package]
-name = "trunk-noob"
+name = "content-builder"
 version = "0.1.0"
 edition = "2021"
 
@@ -11,3 +11,4 @@ serde = "1"
 serde_json = "1"
 wasm-logger = "0.2.0"
 log = "0.4.6"
+stylist = "0.10"

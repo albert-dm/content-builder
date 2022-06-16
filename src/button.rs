@@ -1,9 +1,7 @@
 use serde::{Deserialize, Serialize};
-use serde_json::Result;
-use yew::{function_component, html, Callback, Context, Html, Properties};
+use yew::{function_component, html, Callback, Properties};
 
 #[derive(Serialize, Deserialize, Properties, Clone, PartialEq, Debug)]
-
 pub struct ButtonProps {
     pub label: String,
     #[serde(skip)]
